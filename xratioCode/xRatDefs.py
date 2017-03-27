@@ -7,19 +7,18 @@ Definitions of data classes
 """
 
 class ImgCircle:
-    def _init_(self):
+    def __init__(self):
         self.iRadius = 2.34
 
 class CoOrd:
-    def _init_(self, ix, iy):
- #       ix._init_ = 35
-        self.xx = ix
-        self.yy = iy
-    iyyy = 23
+    def __init__(self, t):
+        self.xx = t
+
+
 
 class ImObjectTest:
     pass
 
 class ImgCoOrd:
-    def _init_(self, u, v):
+    def __init__(self, u, v):
         self.position = CoOrd(u, v)     #coOrd class created elsewhere

@@ -10,22 +10,19 @@ import xRatDefs as xRD
 import xRatImgCalcs as xImg
 
 
+pp1 = xRD.CoOrd(42)
+pp2 = xRD.CoOrd()
+print('finally the self works ...', pp1.xx)
+#pp2.set_x(435)
+#print('get statement ...', pp2.get_x())
 
-tmpX = xRD.CoOrd
-print (tmpX)
 
-# bb = xRD.ImgCircle
-# print ('chk this', bb.iRadius)
+#print ('  ..... ', tmpX.ii)
 
-class ICcle:
-    def _init_(self, gg):
-        self.bRad = 2.34
-bb=ICcle(4)
-#bb.bRad = 23
-print (bb.bRad)
 
+"""
 backVal = xImg.getImageData ()
 
 print (backVal)
 print('hello world - calling')
-
+"""
